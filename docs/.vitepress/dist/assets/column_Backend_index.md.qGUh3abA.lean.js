@@ -1,0 +1,1 @@
+import{_ as e,c as n,o as t}from"./chunks/framework.DyEXnO_p.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"column/Backend/index.md","filePath":"column/Backend/index.md"}'),a={name:"column/Backend/index.md"};function c(o,r,d,s,i,m){return t(),n("div")}const l=e(a,[["render",c]]);export{_ as __pageData,l as default};
