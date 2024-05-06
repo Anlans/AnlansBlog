@@ -1,6 +1,6 @@
-import { SocialLink } from "./../../node_modules/vitepress/types/default-theme.d";
 import { defineConfig } from "vitepress";
 import { nav } from "./relaConf/navbar";
+import { sidebar } from "./relaConf/sidebar";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -11,17 +11,13 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: "my_pic.png",
     nav: nav,
+    sidebar: sidebar,
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
-    sidebar: [
-      {
-        text: "Examples",
-        items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-        ],
-      },
-    ],
+    outline: {
+      level: [2, 6],
+      label: "目录",
+    },
   },
 });

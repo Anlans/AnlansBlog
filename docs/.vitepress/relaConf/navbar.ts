@@ -10,9 +10,14 @@ export const nav: DefaultTheme.NavItem[] = [
         text: "个人生活",
         link: "/column/Travel/",
       },
+    ],
+  },
+  {
+    text: "开发",
+    items: [
       {
-        text: "后端技术",
-        link: "/column/Backend/",
+        text: "后端",
+        link: "/column/Develop/Backend/",
       },
     ],
   },

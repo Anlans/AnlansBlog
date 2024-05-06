@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Anlans技术小栈"
+  name: "小石同学(Anlans)"
   text: "欲买桂花同载酒, 终不似, 少年游。"
   tagline: /新青年/好奇星人/ENTJ-A
   image:
@@ -27,4 +27,6 @@ features:
   - icon: 🦠
     title: 生物信息
     details: CS💻 -> 生物信息🦠的交叉领域探索者，喜欢开发生信工具。
+
+lastUpdated: true
 ---
