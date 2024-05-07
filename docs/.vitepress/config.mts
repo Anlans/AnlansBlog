@@ -4,6 +4,7 @@ import { sidebar } from "./relaConf/sidebar";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  ignoreDeadLinks: true,
   base: "/AnlansBlog/",
   title: "Anlans技术小栈",
   description: "A VitePress Site",

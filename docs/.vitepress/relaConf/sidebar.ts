@@ -39,6 +39,10 @@ export const sidebar: DefaultTheme.Sidebar = {
                   text: "http协议",
                   link: "/column/Develop/Backend/FastAPI/http协议.md",
                 },
+                {
+                  text: "Nginx在Docker的使用小记",
+                  link: "/column/Develop/Backend/FastAPI/Nginx在Docker的使用小记.md",
+                },
               ],
             },
           ],

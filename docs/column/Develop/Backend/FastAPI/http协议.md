@@ -5,6 +5,7 @@
 ## 介绍
 
 1.http协议是基于TCP/IP协议之上的应用层协议
+
 2.基于 请求 -- 响应模式
 
 >   先有`请求`再有`响应`。
@@ -37,7 +38,7 @@
 #### TCP连接的三次握手
 
 >   Three-way handshake in it’s simples form is that all the TCP connections begin with a three-way handshake in which the client and the server share a series of packets before starting to share the application data.
->   三次握手的简单形式是，所有的TCP连接开始都是三次握手，客户端和服务器在开始共享应用程序数据之前共享一系列数据包。
+>   三次握手的简单形式是，所有的TCP连接开始都是三次握手，客户端和服务器在开始共享应用程序数据之前共享一系列数据包。下面介绍具体的步骤：
 >
 >   -   SYN - Client picks up a random number, let’s say x, and sends it to the server.
 >       客户端随机选取一个数字，比如x，然后将其发送到服务器。
