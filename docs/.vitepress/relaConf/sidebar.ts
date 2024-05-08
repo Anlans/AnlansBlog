@@ -43,6 +43,10 @@ export const sidebar: DefaultTheme.Sidebar = {
                   text: "Nginx在Docker的使用小记",
                   link: "/column/Develop/Backend/FastAPI/Nginx在Docker的使用小记.md",
                 },
+                {
+                  text: "SQLAlchemy和Tortoise具体使用",
+                  link: "/column/Develop/Backend/FastAPI/SQLAlchemy和Tortoise.md",
+                },
               ],
             },
           ],

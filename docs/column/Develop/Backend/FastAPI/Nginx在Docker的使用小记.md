@@ -89,11 +89,11 @@ server {
 }
 ```
 
-上面的作用是访问http://localhost:1234/api这个地址的时候会将流量均分给`3000`和`3001`端口。
+上面的作用是访问http://localhost:1234/api 这个地址的时候会将流量均分给`3000`和`3001`端口。
 
 ![image-20240507153228768](https://product-1256871806.cos.ap-shanghai.myqcloud.com/imgs202405071532879.png)
 
-好了，由一开始的nginx容器的配置可以知道，端口是由宿主机1234端口映射到容器的80端口，接下来启动了两个不同端口的web服务后访问http://localhost:1234/api即可根据nginx配置的策略定位到不同的后端服务器上。![image-20240507164305102](https://product-1256871806.cos.ap-shanghai.myqcloud.com/imgs202405071643195.png)
+好了，由一开始的nginx容器的配置可以知道，端口是由宿主机1234端口映射到容器的80端口，接下来启动了两个不同端口的web服务后访问http://localhost:1234/api 即可根据nginx配置的策略定位到不同的后端服务器上。![image-20240507164305102](https://product-1256871806.cos.ap-shanghai.myqcloud.com/imgs202405071643195.png)
 
 简言之，我们可以在下面的代码中配置不同的后端服务器，用以提供服务（当然每台服务器都启动了对应的Web应用并开启了对应的端口）
 
