@@ -13,9 +13,7 @@ export default defineConfig({
     logo: "my_pic.png",
     nav: nav,
     sidebar: sidebar,
-    socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
-    ],
+    socialLinks: [{ icon: "github", link: "https://github.com/Anlans" }],
     outline: {
       level: [2, 6],
       label: "目录",

@@ -55,6 +55,25 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: "前端目录",
           link: "/column/Develop/Frontend/",
         },
+        {
+          text: "刷题目录",
+          items: [
+            {
+              text: "LeetCode",
+              link: "/column/Develop/Algorithm/",
+              items: [
+                {
+                  text: "704-二分查找",
+                  link: "/column/Develop/Algorithm/704-二分查找.md",
+                },
+                {
+                  text: "27-移除元素",
+                  link: "/column/Develop/Algorithm/27-移除元素.md",
+                },
+              ],
+            },
+          ],
+        },
       ],
     },
   ],
