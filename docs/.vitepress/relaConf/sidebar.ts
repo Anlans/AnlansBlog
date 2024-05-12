@@ -49,6 +49,16 @@ export const sidebar: DefaultTheme.Sidebar = {
                 },
               ],
             },
+            {
+              text: "系统设计",
+              link: "/column/Develop/Backend/System-Design/",
+              items: [
+                {
+                  text: "状态码",
+                  link: "/column/Develop/Backend/System-Design/01.md",
+                },
+              ],
+            },
           ],
         },
         {
